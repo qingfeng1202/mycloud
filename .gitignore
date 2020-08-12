@@ -8,3 +8,5 @@ cloud-consul-provider8021/target/
 cloud-zookeeper-consumer9011/target/
 cloud-consumer9001/target/
 cloud-zookeeper-provider8011/target/
+cloud-hystrix-provider8041/
+cloud-hystrix-consumer9041/target/
