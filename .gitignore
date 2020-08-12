@@ -2,3 +2,9 @@
 cloud-provider8001/target/
 *.iml
 cloud-eureka-server7001/target/
+cloud-openfeign-provider8031/target/
+cloud-openfeign-consumer9031/target/
+cloud-consul-provider8021/target/
+cloud-zookeeper-consumer9011/target/
+cloud-consumer9001/target/
+cloud-zookeeper-provider8011/target/

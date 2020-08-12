@@ -1,0 +1,8 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: ZKProvider
+  cloud:
+    zookeeper:
+      connect-string: 192.168.1.10:2181 # zookeeper地址，多个zookeeper地址使用，分割

@@ -1,11 +1,12 @@
 server:
-  port: 8001
+  port: 9001
 spring:
   application:
-    name: provider
+    name: consumer9001
 eureka:
   instance:
-    prefer-ip-address: true # 访问信息有ip信息提示
+    instance-id: consumer
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/

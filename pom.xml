@@ -10,6 +10,14 @@
   <modules>
     <module>cloud-eureka-server7001</module>
     <module>cloud-provider8001</module>
+      <module>cloud-consumer9001</module>
+      <module>cloud-zookeeper-provider8011</module>
+      <module>cloud-zookeeper-consumer9011</module>
+      <module>cloud-consul-provider8021</module>
+    <module>cloud-openfeign-provider8031</module>
+    <module>cloud-openfeign-consumer9031</module>
+      <module>cloud-hystrix-provider8041</module>
+    <module>cloud-hystrix-consumer9041</module>
   </modules>
   <packaging>pom</packaging>
 
