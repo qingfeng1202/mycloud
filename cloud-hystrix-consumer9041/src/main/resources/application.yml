@@ -18,3 +18,10 @@ ribbon:
   ReadTimeout:  6000
   #指的是建立连接从服务器读取到可用资源所用的时间
   ConnectTimeout: 6000
+#暴露全部的监控信息
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

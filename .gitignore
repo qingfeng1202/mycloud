@@ -10,3 +10,11 @@ cloud-consumer9001/target/
 cloud-zookeeper-provider8011/target/
 cloud-hystrix-provider8041/
 cloud-hystrix-consumer9041/target/
+cloud-hystrix-dashboard6001/target/
+cloud-stream-rabbitmq-consumer8802/target/
+cloud-gateway9527/target/
+cloud-config-client-3355/target/
+cloud-sleuth-consumer9051/target/
+cloud-stream-rabbitmq-provider8801/target/
+cloud-config-center-3344/target/
+cloud-sleuth-provider8051/target/

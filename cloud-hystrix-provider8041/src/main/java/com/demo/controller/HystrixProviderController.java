@@ -12,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class HystrixProviderController {
 
     @GetMapping("/provider/ok")
+    @HystrixCommand
     public String provider_OK(){
         String result = "线程池：" + Thread.currentThread().getName() + "   provider_OK";
         System.out.println("*******result:" + result);

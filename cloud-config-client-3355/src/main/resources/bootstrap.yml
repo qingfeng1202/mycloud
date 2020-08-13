@@ -1,0 +1,33 @@
+server:
+  port: 3355
+spring:
+  application:
+    name: config
+  cloud:
+    # config客户端配置
+#    config:
+#      label: master  #分支名称
+#      name: config  # 配置文件名称
+#      profile: dev  # 读取后缀名称，上述3个综合：master分支上config-dev.yml的配置文件被读取
+#      uri: http://localhost:3344 # 配置中心地址
+#  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CLOUD-CONFIG-CENTER  # 配置中心服务名
+      profile: dev # 读取后缀名称，默认读取master分支上，${spring.application.name}-${spring.cloud.config.profile}.yml
+  # 配置rabbitmq
+  rabbitmq:
+    host: 192.168.1.10
+    port: 5672
+    username: guest
+    password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/

@@ -18,6 +18,14 @@
     <module>cloud-openfeign-consumer9031</module>
       <module>cloud-hystrix-provider8041</module>
     <module>cloud-hystrix-consumer9041</module>
+      <module>cloud-hystrix-dashboard6001</module>
+    <module>cloud-gateway9527</module>
+    <module>cloud-config-center-3344</module>
+    <module>cloud-config-client-3355</module>
+      <module>cloud-stream-rabbitmq-provider8801</module>
+      <module>cloud-stream-rabbitmq-consumer8802</module>
+      <module>cloud-sleuth-provider8051</module>
+      <module>cloud-sleuth-consumer9051</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -39,7 +47,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
-    <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
+    <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
     <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
     <junit.version>4.12</junit.version>
     <log4j.version>1.2.17</log4j.version>
