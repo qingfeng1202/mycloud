@@ -18,3 +18,9 @@ cloud-sleuth-consumer9051/target/
 cloud-stream-rabbitmq-provider8801/target/
 cloud-config-center-3344/target/
 cloud-sleuth-provider8051/target/
+cloudalibaba-sentinel-service8401/target/
+cloudalibaba-consumer-8400/target/
+cloudalibaba-consumer9100/target/
+cloudalibaba-config-nacos-client3377/target/
+cloudalibaba-provider8100/target/
+cloudalibaba-provider-9110/target/

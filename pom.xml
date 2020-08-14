@@ -26,6 +26,12 @@
       <module>cloud-stream-rabbitmq-consumer8802</module>
       <module>cloud-sleuth-provider8051</module>
       <module>cloud-sleuth-consumer9051</module>
+      <module>cloudalibaba-provider8100</module>
+      <module>cloudalibaba-consumer9100</module>
+      <module>cloudalibaba-config-nacos-client3377</module>
+      <module>cloudalibaba-sentinel-service8401</module>
+      <module>cloudalibaba-provider-9110</module>
+      <module>cloudalibaba-consumer-8400</module>
   </modules>
   <packaging>pom</packaging>
 
