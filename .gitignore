@@ -24,3 +24,6 @@ cloudalibaba-consumer9100/target/
 cloudalibaba-config-nacos-client3377/target/
 cloudalibaba-provider8100/target/
 cloudalibaba-provider-9110/target/
+seata-order-service2001/target/
+seata-order-service2002/target/
+seata-order-service2003/target/
